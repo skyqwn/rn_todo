@@ -3,6 +3,9 @@ import { StyleSheet, Text, View } from "react-native";
 import tw from "twrnc";
 
 export default function App() {
+  const func = () => {
+    console.log("git");
+  };
   return (
     <View style={styles.container}>
       <Text style={tw`text-red-500 font-bold`}>Hello Test!!</Text>
